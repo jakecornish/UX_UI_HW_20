@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 130px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.navigation {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+    margin-right: 20px;
+}
+
+.responsive {
+    display: inline-flex;
+    height: 130px;
+    width: 180px;
+    margin-left:30px;
+    position: relative;
+    float: left;
+}
+
+.button {
+    display: inline-block;
+    border-color: black;
+    background-color:rgba(83, 120, 77, 0.2);
+    text-decoration: none;
+    width: 90px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.button:hover, button:focus {
+    background-color: rgba(83,120,77,0.5);
+}
+
+.insta {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.linkedin {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+
+.images {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
